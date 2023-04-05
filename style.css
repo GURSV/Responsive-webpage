@@ -1,0 +1,64 @@
+/* Screen 1 */
+@media only screen and (min-width: 1601px) {
+    .homer {
+        background: url("homer.jpg") 0px 0px;
+        width: 312.5px;
+        height: 312.5px;
+    }
+}
+
+/* Screen 2 */
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+
+    .homer {
+        background: url("homer.jpg") -312.5px 0px;
+        width: 312.5px;
+        height: 312.5px;
+    }
+}
+
+/* Screen 3 */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .homer {
+        background: url("homer.jpg") 0px -312.5px;
+        width: 312.5px;
+        height: 312.5px;
+    }
+}
+
+/* Screen 4 */
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .homer {
+        background: url("homer.jpg") -312.5px -312.5px;
+        width: 312.5px;
+        height: 312.5px;
+    }
+}
+
+/* Screen 5 */
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .homer {
+        background: url("homer.jpg") 0px -312.5px;
+        width: 312.5px;
+        height: 312.5px;
+
+    }
+}
+
+/* Screen 6 */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .homer {
+        background: url("homer.jpg") -312.5px 0px;
+        width: 312.5px;
+        height: 312.5px;
+    }
+}
+
+/* Screen 7 */
+@media only screen and (max-width: 600px) {
+    .homer {
+        background: url("homer.jpg") 0px 0px;
+        width: 312.5px;
+        height: 312.5px;
+    }
+}
